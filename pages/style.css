@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(10, 729, 129);
+}
+
+#navigation
+{
+    border: 0px solid black;
+    border-radius: 6px;
+    display: block;
+    justify-content: center;
+    /* background: rgb(0,44,255); */
+    /* background: linear-gradient(90deg, rgba(0,44,255,1) 0%, rgba(97,9,121,1) 50%, rgba(0,44,255,1) 100%); */
+    /* min-width: 1000px; */
+}
+
+.nav-elem
+{
+    margin: 0 auto;
+    padding: 0 0px; 
+    border-radius: 10px; 
+    list-style: none;
+    color: azure;
+    min-width: none;
+}
+
+.menu {
+	width: 100%;
+	display: table;
+}
+.menu ul {
+	display: table-row;
+}
+.menu li {
+	display: table-cell;
+	background: #2767A0;
+}
+.menu ul li:hover, .menu a:hover {
+	background: #666;
+}
+.menu li a {
+	display: block;
+	padding: 8px 15px;
+	color: #fff;
+	text-align: center;
+}
+
+#a
+{
+    background-image: url(bioback.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 500px;
+}
+
+.nav-elem:hover
+{
+    margin: 0 auto;
+    padding: 0 100px;
+    border-radius: 10px;
+    list-style: none;
+    color: red;
+    background-color: aqua;
+}
